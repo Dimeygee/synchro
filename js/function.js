@@ -24,7 +24,6 @@ window.addEventListener("load", () => {
             }
 
             if((p_input.value !== "") && (p_input.value === "Synchroweb3x")){
-                alert(p_input.value)
                 localStorage.setItem("password",JSON.stringify(p_input.value))
                 window.location.href="/index.html"
             }
